@@ -10,9 +10,6 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Main {
-    public static boolean DEBUG = false;
-    public static boolean ANTI_ALIAS = false;
-    public static boolean MULTI_THREAD = false;
     private static ArrayList<Light> lightsList = new ArrayList<>();
     private static ArrayList<Shape> shapesList = new ArrayList<>();
     private static final int row = 600;
